@@ -8,7 +8,7 @@ namespace AssignmentC
 
         public bool Validation(Login input)
         {
-            if (input.email == "a" && input.password == "b")
+            if (input.email == "admin" && input.password == "123")
             {
                 return true;
             }
